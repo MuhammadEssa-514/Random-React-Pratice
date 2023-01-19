@@ -13,6 +13,7 @@ function App() {
     <li>home</li>
     <li>About</li>
     <li>rana</li>
+    <li>salman jagar</li>
    </ul>
    <Navbar/>
    <Home/>
