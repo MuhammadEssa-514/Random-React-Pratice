@@ -12,7 +12,7 @@ function App() {
    <ul>
     <li>home</li>
     <li>About</li>
-    <li>rana</li>
+    <li>contact</li>
     <li>services</li>
     <li>blogs</li>
    </ul>
