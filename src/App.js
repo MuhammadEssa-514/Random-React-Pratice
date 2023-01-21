@@ -9,13 +9,9 @@ function App() {
    <p>hey i a muhammad essa hope you all are fine i beg to say that i cannot came to school due to some important work</p>
    <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea magnam veritatis explicabo!</h2>
    <strong>important</strong>
-   <ul>
-    <li>home</li>
-    <li>About</li>
-    <li>contact</li>
-    <li>services</li>
-    <li>blogs</li>
-   </ul>
+ <ul>
+  <li>Home</li>
+ </ul>
    <Navbar/>
    <Home/>
    </>
