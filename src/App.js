@@ -11,6 +11,7 @@ function App() {
    <strong>important</strong>
  <ul>
   <li>Home</li>
+  <li>ABout</li>
  </ul>
    <Navbar/>
    <Home/>
