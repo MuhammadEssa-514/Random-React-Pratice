@@ -12,6 +12,7 @@ function App() {
  <ul>
   <li>Home</li>
   <li>ABout</li>
+  <li>service</li>
  </ul>
    <Navbar/>
    <Home/>
