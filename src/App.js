@@ -13,6 +13,7 @@ function App() {
   <li>Home</li>
   <li>ABout</li>
   <li>service</li>
+  <li>about</li>
  </ul>
    <Navbar/>
    <Home/>
