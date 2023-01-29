@@ -18,7 +18,7 @@ function App() {
   <li>portfolio</li>
   <li>producs</li>
   <li>detail</li>
-  <li>more</li>
+ 
  </ul>
    <Navbar/>
    <Home/>
