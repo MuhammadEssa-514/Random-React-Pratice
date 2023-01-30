@@ -17,7 +17,7 @@ function App() {
   <li>blogs</li>
   <li>portfolio</li>
   <li>producs</li>
-  <li>detail</li>
+  
  
  </ul>
    <Navbar/>
