@@ -16,7 +16,6 @@ function App() {
   <li>about</li>
   <li>blogs</li>
   <li>portfolio</li>
-  <li>producs</li>
   
  
  </ul>
