@@ -15,7 +15,7 @@ function App() {
   <li>service</li>
   <li>about</li>
   <li>blogs</li>
-  <li>portfolio</li>
+
   
  
  </ul>
