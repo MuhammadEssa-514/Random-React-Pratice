@@ -14,7 +14,7 @@ function App() {
   <li>ABout</li>
   <li>service</li>
   <li>about</li>
-  <li>blogs</li>
+
 
   
  
