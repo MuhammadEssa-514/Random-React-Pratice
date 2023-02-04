@@ -18,6 +18,7 @@ function App() {
   <ol>
     <li>allah</li>
     <li>muhammad</li>
+    <li>ali</li>
   </ol>
   
 
