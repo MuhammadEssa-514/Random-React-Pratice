@@ -27,6 +27,7 @@ function App() {
     <li>mosa kazim</li>
     <li>ali raza</li>
     <li>ali naqi</li>
+    <li>taqi</li>
   </ol>
   
 
