@@ -36,7 +36,7 @@ function App() {
     <li>sakina</li>
     <li>ali asghar</li>
     <li>abbas</li>
-    <li>akbar</li>
+
 
   </ol>
   
