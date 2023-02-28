@@ -34,7 +34,6 @@ function App() {
     <li>zainab</li>
     <li>kulsum</li>
     <li>sakina</li>
-    <li>ali asghar</li>
 
 
   </ol>
