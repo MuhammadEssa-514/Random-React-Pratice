@@ -33,7 +33,6 @@ function App() {
     <li>fatima</li>
     <li>zainab</li>
     <li>kulsum</li>
-    <li>sakina</li>
 
 
   </ol>
