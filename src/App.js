@@ -1,45 +1,46 @@
-import Home from './Components/Home';
-import Navbar from './Components/Navbar';
-import Timer from './Components/Timer/Timer';
+// import Home from './Components/Home';
+// import Navbar from './Components/Navbar';
+// import Timer from './Components/Timer/Timer';
 import React, { useState, useEffect } from "react";
-import TodoApp from './Components/TodoApp/TodoApp';
-import Button from './Components/Button.js/Button';
+// import TodoApp from './Components/TodoApp/TodoApp';
+// import Button from './Components/Button.js/Button';
+import HandShow from './Components/HandShow/HandShow';
 
 
 function App() {
-  const [timerDays, setTimerDays] = useState();
-  const [timerHours, setTimerHours] = useState();
-  const [timerMinutes, setTimerMinutes] = useState();
-  const [timerSeconds, setTimerSeconds] = useState();
+  // const [timerDays, setTimerDays] = useState();
+  // const [timerHours, setTimerHours] = useState();
+  // const [timerMinutes, setTimerMinutes] = useState();
+  // const [timerSeconds, setTimerSeconds] = useState();
 
-  const startTimer = () => {
-    const countDownDate = new Date("May 30,2024 ").getTime();
+  // const startTimer = () => {
+  //   const countDownDate = new Date("May 30,2024 ").getTime();
 
-     setInterval(() => {
-      const now = new Date().getTime();
-      const distance = countDownDate - now;
-      const days = Math.floor(distance / (24 * 60 * 60 * 1000));
-      const hours = Math.floor(
-        (distance % (24 * 60 * 60 * 1000)) / (1000 * 60 * 60)
-      );
-      const minutes = Math.floor((distance % (60 * 60 * 1000)) / (1000 * 60));
-      const seconds = Math.floor((distance % (60 * 1000)) / 1000);
-      if (distance < 0) {
-        {
-          alert("this is end");
-        }
-      } else {
-        setTimerDays(days);
-        setTimerHours(hours);
-        setTimerMinutes(minutes);
-        setTimerSeconds(seconds);
-      }
-    });
-  };
+  //    setInterval(() => {
+  //     const now = new Date().getTime();
+  //     const distance = countDownDate - now;
+  //     const days = Math.floor(distance / (24 * 60 * 60 * 1000));
+  //     const hours = Math.floor(
+  //       (distance % (24 * 60 * 60 * 1000)) / (1000 * 60 * 60)
+  //     );
+  //     const minutes = Math.floor((distance % (60 * 60 * 1000)) / (1000 * 60));
+  //     const seconds = Math.floor((distance % (60 * 1000)) / 1000);
+  //     if (distance < 0) {
+  //       {
+  //         alert("this is end");
+  //       }
+  //     } else {
+  //       setTimerDays(days);
+  //       setTimerHours(hours);
+  //       setTimerMinutes(minutes);
+  //       setTimerSeconds(seconds);
+  //     }
+  //   });
+  // };
 
-  useEffect(() => {
-    startTimer();
-  });
+  // useEffect(() => {
+  //   startTimer();
+  // });
   return (
    <>
    <h1>hellow salam muhammad sultani</h1>
@@ -52,26 +53,7 @@ function App() {
   <li>service</li>
   <li>dds</li>
 
-  <ol>
-    <li>allah</li>
-    <li>muhammad</li>
-    <li>ali</li>
-    <li>hassan</li>
-    <li>hussain</li>
-    <li>abid a bamar</li>
-    <li>baqar</li>
-    <li>jafar a sadiq</li>
-    <li>mosa kazim</li>
-    <li>ali raza</li>
-    <li>ali naqi</li>
-    <li>taqi</li>
-    <li>hasaan asghari</li>
-    <li>imam a zaman </li>
-    <li>fatima</li>
-    <li>zainab</li>
 
-
-  </ol>
   
 {/*/* timer start here */}
 {/* <div className="flex justify-between ">
@@ -86,13 +68,13 @@ function App() {
 
  
  </ul>
-   <Navbar/>
+   {/* <Navbar/>
    <Home/>
    <Timer/>
-   <TodoApp/>
+   <TodoApp/> */}
    {/* <Button label="Login / Signup" height={"h-[60px]"} width={"w-[196px]"} variants="primary"/> */}
-<Button/>
-
+   {/* <Button/> */}
+    <HandShow/>
    </>
   );
 }
