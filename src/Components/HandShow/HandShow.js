@@ -23,8 +23,8 @@ function HandShow() {
       setIsVisible3(!isVisible3);
     }
   };
- const [count,setCount]=useState(0);
- const [text,setText]=useState("MUhammad");
+ const [count,setCount]=useState(10);
+ const [text,setText]=useState("MUhammadhmas ");
 
   return (
     <>
