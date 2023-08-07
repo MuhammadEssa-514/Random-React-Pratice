@@ -24,7 +24,7 @@ function HandShow() {
     }
   };
  const [count,setCount]=useState(0);
- const [text,setText]=useState("Ali");
+ const [text,setText]=useState("MUhammad");
 
   return (
     <>
