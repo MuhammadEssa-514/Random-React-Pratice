@@ -1,14 +1,19 @@
 import Home from './Components/Home';
 import Navbar from './Components/Navbar';
 import Timer from './Components/Timer/Timer';
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, createContext } from "react";
 import TodoApp from './Components/TodoApp/TodoApp';
 import Button from './Components/Button.js/Button';
 import HandShow from './Components/HandShow/HandShow';
 import UseState from './Components/Hooks/UseState';
+import UseEffect from './Components/Hooks/UseEffect';
 
+const data=createContext();
+const data1=createContext();
 
 function App() {
+  const name="MuhammadEssa";
+  const age =14;
   const [timerDays, setTimerDays] = useState();
   const [timerHours, setTimerHours] = useState();
   const [timerMinutes, setTimerMinutes] = useState();
@@ -98,9 +103,11 @@ function App() {
     <Button/>
     <HandShow/>
     {/* <UseState/> */}
+    <UseEffect/>
 
    </>
   );
 }
 
 export default App;
+export {data,data1};
