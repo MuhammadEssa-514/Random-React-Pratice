@@ -67,8 +67,9 @@ const Button = ({ label, width, height, variants }) => {
         button
       </button>
 
-        
-        <button className="before:hover:scale-x-0 relative px-3 py-2 before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:bg-red-600 before:hover:bg-blue-700 before:duration-1000 before:hover:rounded-full ">Random</button>
+      <button className="before:hover:scale-x-0 relative px-3 py-2 before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:bg-red-600 before:hover:bg-blue-700 before:duration-1000 before:hover:rounded-full ">Random</button>
+      
+      <button className="relative h-[45px] w-[200px] bg-[gray] before:content:[''] before:absolute before:w-[100%] before:h-[100%]">login</button>
       </div>
       
     </div>

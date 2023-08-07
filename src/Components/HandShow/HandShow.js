@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import essa from "../../images/essa.jpeg"
-import nature from "../../images/download.jpeg"
+import naturee from "../../images/download.jpeg"
+import line from "../../images/pro1.jpeg"
 
 function HandShow() {
   const [isVisible1, setIsVisible1] = useState(false);
@@ -22,10 +23,25 @@ function HandShow() {
       setIsVisible3(!isVisible3);
     }
   };
+ const [count,setCount]=useState(0);
+ const [text,setText]=useState("Ali");
 
   return (
     <>
-      <div style={{ display: isVisible1 ? 'block' : 'none' }}>
+    <div>
+      <h1>{count}</h1>
+      <input className='border border-1 outline-none' type="text" placeholder='enter here'
+      onChange={(event)=>{
+        setCount(count+1)
+        let a=event.target.value;
+        setText(a)
+
+      }}
+      />
+      {text}
+    </div>
+
+      {/* <div style={{ display: isVisible1 ? 'block' : 'none' }}>
         <p>This is my DIV element 1.</p>
         <img  src={essa} className='h-[20vh] w-[20%]'/>
        
@@ -33,7 +49,7 @@ function HandShow() {
 
       <div style={{ display: isVisible2 ? 'block' : 'none' }}>
         <p>This is my DIV element 2.</p>
-        <img src={nature}/>
+        <img src={nature} className='h-[20vh] w-[20%]'/>
       </div>
 
       <div style={{ display: isVisible3 ? 'block' : 'none' }}>
@@ -65,7 +81,51 @@ function HandShow() {
         3 Show and hide
       </button>
       <br />
-      <br />
+      <br /> */}
+
+      <div className="main">
+        <div className="buttons flex gap-10 justify-center">
+        <button onClick={() => toggleVisibility(1)} className='bg-black text-white px-3 py-2 rounded mt-2'>Read More 1</button>
+        <button onClick={() => toggleVisibility(2)} className='bg-black text-white px-3 py-2 rounded mt-2'>Read More 2</button>
+        <button onClick={() => toggleVisibility(3)} className='bg-black text-white px-3 py-2 rounded mt-2'>Read More 3</button>
+        </div>
+        
+        
+        <div className="flex" style={{ display: isVisible1 ? 'block' : 'none' }}>
+        <div className=" content w-[90%] h-[70vh] bg-[red] m-auto flex transition-all translate-x-1 duration-300">
+          <img src={essa} className='h-[70vh] w-[40%]'/>
+          <div className="text">
+          <h1 className='text-[30px]'>Abbdullah</h1>
+          <p className=''>Muhammad ipsum dolor sit amet consectetur adipisicing elit. Quam harum vero officiis nostrum labore pariatur ipsum impedit aperiam consectetur illo odit deleniti, fugiat iure qui delectus laborum neque amet end .Muhammad ipsum dolor sit amet consectetur adipisicing elit. Quam harum vero officiis nostrum labore pariatur ipsum impedit aperiam consectetur illo odit deleniti, fugiat iure qui delectus laborum neque amet end .Muhammad ipsum dolor sit amet consectetur adipisicing elit. Quam harum vero officiis nostrum labore pariatur ipsum impedit aperiam consectetur illo odit deleniti, fugiat iure qui delectus laborum neque amet end .Muhammad ipsum dolor sit amet consectetur adipisicing elit. Quam harum vero officiis nostrum labore pariatur ipsum impedit llo odit deleniti, fugiat iure qui delectus laborum neque amet eectus laborum neque amet end .Muhammad  </p>
+          <button className='bg-black text-white px-3 py-2 rounded mt-2'>Read More</button>
+          </div>
+        </div>
+        </div>
+
+        <div className="flex" style={{ display: isVisible2 ? 'block' : 'none' }}>
+        <div className=" content w-[90%] h-[70vh] bg-[red] m-auto flex">
+          <img src={line} className='h-[70vh] w-[40%]'/>
+          <div className="text">
+          <h1 className='text-[30px]'>junaid</h1>
+          <p className=''>Muhammad ipsum dolor sit amet consectetur adipisicing elit. Quam harum vero officiis nostrum labore pariatur ipsum impedit aperiam consectetur illo odit deleniti, fugiat iure qui delectus laborum neque amet end .Muhammad ipsum dolor sit amet consectetur adipisicing elit. Quam harum vero officiis nostrum labore pariatur ipsum impedit aperiam consectetur illo odit deleniti, fugiat iure qui delectus laborum neque amet end .Muhammad ipsum dolor sit amet consectetur adipisicing elit. Quam harum vero officiis nostrum labore pariatur ipsum impedit aperiam consectetur illo odit deleniti, fugiat iure qui delectus laborum neque amet end .Muhammad ipsum dolor sit amet consectetur adipisicing elit. Quam harum vero officiis nostrum labore pariatur ipsum impedit llo odit deleniti, fugiat iure qui delectus laborum neque amet eectus laborum neque amet end .Muhammad  </p>
+          <button className='bg-black text-white px-3 py-2 rounded mt-2'>Read More</button>
+          </div>
+        </div>
+        </div>
+
+        <div className="flex" style={{ display: isVisible3 ? 'block' : 'none' }}>
+        <div className=" content w-[90%] h-[70vh] bg-[red] m-auto flex">
+          <img src={naturee} className='h-[70vh] w-[40%]'/>
+          <div className="text">
+          <h1 className='text-[30px]'>Jabar</h1>
+          <p className=''>Muhammad ipsum dolor sit amet consectetur adipisicing elit. Quam harum vero officiis nostrum labore pariatur ipsum impedit aperiam consectetur illo odit deleniti, fugiat iure qui delectus laborum neque amet end .Muhammad ipsum dolor sit amet consectetur adipisicing elit. Quam harum vero officiis nostrum labore pariatur ipsum impedit aperiam consectetur illo odit deleniti, fugiat iure qui delectus laborum neque amet end .Muhammad ipsum dolor sit amet consectetur adipisicing elit. Quam harum vero officiis nostrum labore pariatur ipsum impedit aperiam consectetur illo odit deleniti, fugiat iure qui delectus laborum neque amet end .Muhammad ipsum dolor sit amet consectetur adipisicing elit. Quam harum vero officiis nostrum labore pariatur ipsum impedit llo odit deleniti, fugiat iure qui delectus laborum neque amet eectus laborum neque amet end .Muhammad  </p>
+          <button className='bg-black text-white px-3 py-2 rounded mt-2'>Read More</button>
+          </div>
+        </div>
+        </div>
+        
+      </div>
+      {/* <div className="animate-ping h-1 w-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ratione illo, porro aut, suscipit aliquam temporibus repudiandae assumenda inventore quaerat qui nam doloribus sunt nemo ipsam modi maiores fugiat beatae ducimus? Iste quisquam temporibus minus est totam animi illo repellat.</div> */}
     </>
   );
 }
