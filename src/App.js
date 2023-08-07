@@ -5,6 +5,7 @@ import React, { useState, useEffect } from "react";
 import TodoApp from './Components/TodoApp/TodoApp';
 import Button from './Components/Button.js/Button';
 import HandShow from './Components/HandShow/HandShow';
+import UseState from './Components/Hooks/UseState';
 
 
 function App() {
@@ -48,17 +49,15 @@ function App() {
    <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea magnam veritatis explicabo!</h2>
    <strong>important</strong>
  <ul>
-  <li>Home</li>
+  
   <li>ABout</li>
   <li>service</li>
   <li>dds</li>
 
   <ol>
-    <li>allah</li>
-    <li>muhammad</li>
-    <li>ali</li>
-    <li>hassan</li>
-    <li>hussain</li>
+  
+  
+
     <li>abid a bamar</li>
     <li>baqar</li>
     <li>jafar a sadiq</li>
@@ -98,6 +97,8 @@ function App() {
    {/* <Button label="Login / Signup" height={"h-[60px]"} width={"w-[196px]"} variants="primary"/>  */}
     <Button/>
     <HandShow/>
+    {/* <UseState/> */}
+    
    </>
   );
 }

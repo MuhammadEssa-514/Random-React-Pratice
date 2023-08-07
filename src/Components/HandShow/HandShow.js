@@ -23,26 +23,9 @@ function HandShow() {
       setIsVisible3(!isVisible3);
     }
   };
- const [count,setCount]=useState(10);
- const [text,setText]=useState("MUhammadhmas ");
- const [name,setName]=useState("Ahmad");
- const [fname,setFname]=useState("Julam");
- const [clas,setClas]=useState(9);
 
   return (
     <>
-    <div>
-      <h1>{count}</h1>
-      <input className='border border-1 outline-none' type="text" placeholder='enter here'
-      onChange={(event)=>{
-        setCount(count+1)
-        let a=event.target.value;
-        setText(a)
-
-      }}
-      />
-      {text}
-    </div>
 
       {/* <div style={{ display: isVisible1 ? 'block' : 'none' }}>
         <p>This is my DIV element 1.</p>
