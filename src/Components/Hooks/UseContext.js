@@ -1,5 +1,5 @@
 import React,{useContext} from 'react'
-// i use usecontext from parent App.js to child directly usecontext.
+// i use usecontext to pass value from parent App.js to child directly usecontext.we use to pass values from parent to nested childs.
 import {data,data1} from '../../App.js';
 function UseContext() {
     const name=useContext(data)

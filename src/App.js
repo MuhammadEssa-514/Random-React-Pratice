@@ -8,6 +8,7 @@ import HandShow from './Components/HandShow/HandShow';
 import UseState from './Components/Hooks/UseState';
 import UseEffect from './Components/Hooks/UseEffect';
 import UseContext from './Components/Hooks/UseContext';
+import UseRef from './Components/Hooks/UseRef';
 
 const data=createContext();
 const data1=createContext();
@@ -62,6 +63,8 @@ function App() {
   <li>dds</li>
   <li>ahmad</li>
   <li>akram alam jamal</li>
+  <li>iuduy </li>
+  <li>juanid ala ha</li>
 
   <ol>
   
@@ -117,6 +120,7 @@ function App() {
   </data.Provider>
   {/* this small piece of code is just for usecontext end===== */}
 
+   <UseRef/>
    </>
   );
 }
