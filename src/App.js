@@ -97,7 +97,7 @@ function App() {
    {/* <Button label="Login / Signup" height={"h-[60px]"} width={"w-[196px]"} variants="primary"/>  */}
     <Button/>
     <HandShow/>
-    <UseState/>
+    {/* <UseState/> */}
 
    </>
   );
