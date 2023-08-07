@@ -25,6 +25,9 @@ function HandShow() {
   };
  const [count,setCount]=useState(10);
  const [text,setText]=useState("MUhammadhmas ");
+ const [name,setName]=useState("Ahmad");
+ const [fname,setFname]=useState("Julam");
+ const [clas,setClas]=useState(9);
 
   return (
     <>
