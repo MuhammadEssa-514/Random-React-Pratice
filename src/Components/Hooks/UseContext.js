@@ -1,6 +1,6 @@
 import React,{useContext} from 'react'
 // i use usecontext from parent App.js to child directly usecontext.
-import {data,data1} from './App';
+import {data,data1} from '../../App.js';
 function UseContext() {
     const name=useContext(data)
     const age=useContext(data1)

@@ -7,13 +7,15 @@ import Button from './Components/Button.js/Button';
 import HandShow from './Components/HandShow/HandShow';
 import UseState from './Components/Hooks/UseState';
 import UseEffect from './Components/Hooks/UseEffect';
+import UseContext from './Components/Hooks/UseContext';
 
 const data=createContext();
 const data1=createContext();
 
 function App() {
-  const name="MuhammadEssa";
-  const age =14;
+  const name="MuhammadEssa"
+  const age =14
+
   const [timerDays, setTimerDays] = useState();
   const [timerHours, setTimerHours] = useState();
   const [timerMinutes, setTimerMinutes] = useState();
@@ -103,7 +105,15 @@ function App() {
     <Button/>
     <HandShow/>
     {/* <UseState/> */}
-    <UseEffect/>
+    {/* <UseEffect/> */}
+
+      {/* this small piece of code is just for usecontext start==== */}
+  <data.Provider value={name}>
+    <data1.Provider value={age}>
+        <UseContext/>
+    </data1.Provider>
+  </data.Provider>
+  {/* this small piece of code is just for usecontext end===== */}
 
    </>
   );
