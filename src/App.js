@@ -62,7 +62,7 @@ function App() {
   <li>service</li>
   <li>dds</li>
   <li>ahmad</li>
-  <li>akram alam jamal</li>
+  <li>rayyan alam jamal</li>
   <li>iuduy </li>
   <li>juanid ala ha</li>
 
@@ -72,16 +72,7 @@ function App() {
 
     <li>abid a bamar</li>
     <li>baqar</li>
-    <li>jafar a sadiq</li>
-    <li>mosa kazim</li>
-    <li>ali raza</li>
-    <li>ali naqi</li>
-    <li>taqi</li>
-    <li>hasaan asghari</li>
-    <li>imam a zaman </li>
-    <li>fatima</li>
-    <li>zainab</li>
-    <li>sultan muhammad essa</li>
+    <li>muhammad a sadiq</li>
 
 
   </ol>
