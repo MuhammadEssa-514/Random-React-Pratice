@@ -6,3 +6,21 @@
     --backcolor:#ff0000;
     --bkgrd:green;
 }
+
+/* styles.css or global.css */
+.slider {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .slide {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .slide.active {
+    opacity: 1;
+  }
+  

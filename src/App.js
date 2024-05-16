@@ -9,6 +9,8 @@ import UseState from './Components/Hooks/UseState';
 import UseEffect from './Components/Hooks/UseEffect';
 import UseContext from './Components/Hooks/UseContext';
 import UseRef from './Components/Hooks/UseRef';
+import { NavResBar } from './Components/NavResBar/NavResBar';
+import Slider from './Components/Slider/Slider';
 
 const data=createContext();
 const data1=createContext();
@@ -98,20 +100,23 @@ function App() {
    <Timer/>
    <TodoApp/> */}
    {/* <Button label="Login / Signup" height={"h-[60px]"} width={"w-[196px]"} variants="primary"/>  */}
-    <Button/>
-    <HandShow/>
+    {/* <Button/> */}
+    {/* <HandShow/> */}
     {/* <UseState/> */}
     {/* <UseEffect/> */}
 
       {/* this small piece of code is just for usecontext start==== */}
-  <data.Provider value={name}>
+  {/* <data.Provider value={name}>
     <data1.Provider value={age}>
         <UseContext/>
     </data1.Provider>
   </data.Provider>
+   <UseRef/> */}
   {/* this small piece of code is just for usecontext end===== */}
 
-   <UseRef/>
+  {/* <NavResBar/> */}
+  <Slider/>
+
    </>
   );
 }
